@@ -17,6 +17,26 @@ body {
   min-height: 100vh;
 }
 
+.conditions{
+  text-align: center;
+  margin: 32px 0 ;
+  font-size: 18px;
+}
+
+.conditions-section .contion_grid {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 4px;
+}
+
+.conditions-section .contion_grid div{
+  font-size: 1.5rem;
+  border-bottom: #212529 2px solid;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+} 
+
 .hero-section {
   position: relative;
   background: #a8c0ff; /* fallback for old browsers */
@@ -312,7 +332,6 @@ body {
   position: absolute;
   display: flex;
   bottom: 0;
-  height: 80vh;
   width: 80%;
   background-color: white;
 }
@@ -458,23 +477,32 @@ body {
 
 .sponsors-section {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
 .sponsors-section-section {
   display: flex;
-  height: 100vh;
-  width: 80%;
   flex-direction: column;
   text-align: center;
   align-items: center;
   font-size: 1.5rem;
+  padding: 12px 0;
   background-color: #eeeeee;
+}
+.sponsors-section-section h1{
+  margin: 24px 0;
 }
 
 .sponsors {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.sponsors img{
+  width: 50%;
+  padding: 12px;
+  border-radius: 16px;
 }
 
 .sponsors h1 {
@@ -575,8 +603,9 @@ footer h4 a {
 }
 
 .footer-contact {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   text-align: center;
 }
 
