@@ -425,13 +425,18 @@
   }
 
   .sponsors-section {
-    height: 100vh;
+    height:100%;
   }
 
   .sponsors-section-section {
-    height: 100vh;
-    width: 95%;
+    width: 100%;
     font-size: 1rem;
+  }
+
+  .sponsors img{
+    width: 80%;
+    padding: 12px;
+    border-radius: 16px;
   }
 
   .sponsors h1 {
@@ -492,7 +497,6 @@
   }
 
   footer {
-    height: 25vh;
     font-size: 0.9rem;
     background-color: #212529;
   }
