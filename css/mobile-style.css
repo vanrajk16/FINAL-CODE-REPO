@@ -235,9 +235,6 @@
   }
 
   .themes-section {
-    height: 225vh;
-    margin-top: 0;
-    margin-bottom: 50px;
   background: linear-gradient(to right bottom, rgb(63, 94, 251), rgb(252, 70, 107));
     display: flex;
     justify-content: center;
@@ -246,7 +243,7 @@
   }
 
   .themes-section h1 {
-    margin-bottom: 40px;
+    margin: 12px 0;
   }
 
   .theme-cards {
