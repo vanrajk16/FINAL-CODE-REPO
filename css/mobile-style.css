@@ -132,7 +132,7 @@
   }
 
   .about-section {
-    height: 115vh;
+    height: 100vh;
     margin-top: 0;
     background: #212529;
     display: flex;
@@ -431,6 +431,9 @@
   .conditions-section .contion_grid{
     display: flex;
     flex-direction: column;
+  }
+  .conditions-section .contion_grid div{
+    width: 100%;
   }
   .sponsors-section {
     height:100%;

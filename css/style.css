@@ -29,13 +29,15 @@ body {
 }
 
 .conditions-section .contion_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 24px;
   gap: 38px;
 }
 
 .conditions-section .contion_grid div{
+  width: 30%;
   height: 200px;
   font-size: 1.5rem;
   padding-bottom: 34px;
@@ -45,6 +47,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 12px;
   border-radius: 12px;
   box-shadow: 6px 7px 17px 0px #212529;
@@ -817,6 +820,7 @@ footer h4 a span {
 }
 
 .accordion .content p {
+  color: #03b5d2;
   font-size: 1rem;
   font-weight: 300;
 }
