@@ -134,7 +134,7 @@
   .about-section {
     height: 115vh;
     margin-top: 0;
-    background: white;
+    background: #212529;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -209,7 +209,7 @@
 
   .card {
     width: 40%;
-    height: 150px;
+    height: 40%;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -229,9 +229,10 @@
   }
 
   .schedule-section {
-    height: 110vh;
-    margin-bottom: 300px;
-    font-size: 1rem;
+    background-color:#212529;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .themes-section {
@@ -265,20 +266,23 @@
   }
 
   .event-schedule {
-    margin-top: 20px;
+    margin-top: 0;
+    padding: 12px;
+    text-align: center;
   }
 
   .event-schedule h1 {
+    color: white;
     font-family: Poppins;
   }
-
   .schedule-section-section {
+    color: #fff;
+    font-size: 14px;
+    position: relative;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    height: 100vh;
-    width: 95%;
-    background-color: white;
+    align-items: center;
+    background-color:#212529;
   }
 
   .section-1 {
@@ -424,6 +428,10 @@
     background-color: white;
   }
 
+  .conditions-section .contion_grid{
+    display: flex;
+    flex-direction: column;
+  }
   .sponsors-section {
     height:100%;
   }
@@ -477,12 +485,8 @@
     background-color: lightgrey;
   }
 
-  .faq-section {
-    height: 100vh;
-  }
 
   .faq-section-section {
-    width: 95%;
     font-size: 1rem;
   }
 
@@ -492,7 +496,6 @@
   }
 
   .faqs-list {
-    height: 90vh;
     margin-bottom: 10px;
   }
 
