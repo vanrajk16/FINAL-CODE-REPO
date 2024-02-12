@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 600px) {
   .main-nav {
-    position: relative;
+    position: absolute;
     background-color: #fc466b;
     padding: 20px 0;
     transform: scaleY(0) rotateX(-90deg);
@@ -14,25 +14,22 @@
     transform-origin: top;
   }
 
-  .hero-section {
-    height: 90vh;
+  .hero-section { 
     position: relative;
   }
-
-  .hackrcdu {
-    position: absolute;
-    z-index: 2;
-    font-size: 1.2rem;
-    padding: 25px;
-    left: 5%;
-    top: 50%;
-    transform: translateY(-50%);
+  .hero_flex{
+    height: 95vh;
   }
+
 
   .hackrcdu h1 {
     font-family: Poppins;
     margin-bottom: 10px;
     color: #fff;
+  }
+
+  .hackrcdu h1 img{
+    width: 80%;
   }
 
   .hackrcdu h3 {
