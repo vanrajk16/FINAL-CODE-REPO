@@ -863,3 +863,12 @@ footer h4 a span {
 .download_section a svg{
   width: 32px;
 }
+
+div{
+  margin: 0 auto;
+  max-width: 2400px;
+}
+.contion_grid{
+  margin: 0 auto;
+  max-width: 1800px;
+}
