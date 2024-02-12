@@ -131,7 +131,7 @@ body {
   position: relative;
   background-color: #1859fe;
   color: white;
-  padding: 3% 4%;
+  padding: 2% 4%;
   transition: all .2s ease-in-out;
 }
 
@@ -896,4 +896,10 @@ div {
 .contion_grid {
   margin: 0 auto;
   max-width: 1800px;
+}
+
+section,footer{
+  overflow-x: hidden;
+  margin: 0 auto;
+  max-width: 2400px;
 }
