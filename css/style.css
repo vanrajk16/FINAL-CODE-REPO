@@ -659,7 +659,7 @@ body {
 }
 
 footer {
-  padding: 7% 2%;
+  padding:3% 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -669,6 +669,7 @@ footer {
 }
 
 footer h4 {
+  font-size: 28px;
   text-align: left;
   line-height: 1.7;
   padding: 15px;
@@ -687,10 +688,14 @@ footer h4 a {
 .footer-contact {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: center;
+  gap: 82px;
 }
 
+.footer-contact div{
+  margin: 0;
+}
 footer h4 a span {
   text-decoration: underline;
 }
@@ -902,4 +907,17 @@ section,footer{
   overflow-x: hidden;
   margin: 0 auto;
   max-width: 2400px;
+}
+
+.devlopers{
+  background-color: #212529;
+  font-size: 1.5rem;
+  border-top: #f2f2f2 solid 2px;
+  color: #c7c7c7;
+  text-align: center;
+  padding: 42px;
+}
+.devlopers a{
+  line-height: 1.8;
+  color: #0575e6;
 }
