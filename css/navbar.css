@@ -9,14 +9,16 @@ body {
 }
 
 .navbar {
+  z-index: 5;
   position: relative;
   font-size: 25px;
   background: transparent;
 }
 
 .main-nav {
+  width: 100%;
   list-style-type: none;
-  z-index: 3;
+  z-index: 8;
 }
 
 .nav-links,
@@ -68,9 +70,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
     align-items: center;
-    padding-top: 3.5rem;
+    padding: 1.5rem 0;
   }
 
   #chkToggle:checked+ul.main-nav {
@@ -78,6 +79,7 @@ body {
   }
 
   .main-nav {
+    z-index: 8;
     padding-bottom: 20px;
     display: flex;
     margin-right: 30px;
