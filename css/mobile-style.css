@@ -132,8 +132,9 @@
   }
 
   .about-section {
-    height: 100vh;
+    height: 110vh;
     margin-top: 0;
+    padding: 32px 0;
     background: #212529;
     display: flex;
     justify-content: center;
